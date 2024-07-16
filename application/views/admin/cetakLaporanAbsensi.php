@@ -61,7 +61,7 @@ else{
     <tr>
       <td><?= $no++; ?></td>
       <td><?= $l->nama_pegawai; ?></td>
-      <td><?= $l->nip; ?></td>
+      <td><?= $l->nik; ?></td>
       <td><?= $l->nama_jabatan; ?></td>
       <td><?= $l->hadir; ?></td>
       <td><?= $l->sakit; ?></td>

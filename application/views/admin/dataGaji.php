@@ -116,7 +116,7 @@
       <?php $potongan = $g->alpha * $alpha; ?>
       <tr>
         <td><?= $no++; ?></td>
-        <td><?= $g->nip; ?></td>
+        <td><?= $g->nik; ?></td>
         <td><?= $g->nama_pegawai; ?></td>
         <td><?= $g->jenis_kelamin; ?></td>
         <td><?= $g->nama_jabatan; ?></td>

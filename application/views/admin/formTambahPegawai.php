@@ -12,7 +12,7 @@
       <form action="<?= base_url('admin/dataPegawai/tambahDataAksi') ?>" method="post" enctype="multipart/form-data">
         <div class="form-group">
           <label for="">NIP</label>
-          <input type="number" name="nip" class="form-control">
+          <input type="number" name="nik" class="form-control">
           <?= form_error('nik', '<div class="text-small text-danger">', '</div>') ?>
         </div>
         

@@ -82,13 +82,13 @@
       foreach($inputAbsensi as $a): ?>
       <tr>
         <input type="hidden" name="bulan[]" class="form-control" value="<?= $bulanTahun; ?>">
-        <input type="hidden" name="nip[]" class="form-control" value="<?= $a->nip; ?>">
+        <input type="hidden" name="nik[]" class="form-control" value="<?= $a->nik; ?>">
         <input type="hidden" name="nama_pegawai[]" class="form-control" value="<?= $a->nama_pegawai; ?>">
         <input type="hidden" name="jenis_kelamin[]" class="form-control" value="<?= $a->jenis_kelamin; ?>">
         <input type="hidden" name="nama_jabatan[]" class="form-control" value="<?= $a->nama_jabatan; ?>">
         
         <td><?= $no++; ?></td>
-        <td><?= $a->nip; ?></td>
+        <td><?= $a->nik; ?></td>
         <td><?= $a->nama_pegawai; ?></td>
         <td><?= $a->jenis_kelamin; ?></td>
         <td><?= $a->jabatan; ?></td>

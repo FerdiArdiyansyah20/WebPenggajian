@@ -27,7 +27,7 @@
     foreach($pegawai as $p): ?>
     <tr>
       <td><?= $no++; ?></td>
-      <td><?= $p->nip; ?></td>
+      <td><?= $p->nik; ?></td>
       <td><?= $p->nama_pegawai; ?></td>
       <td><?= $p->jenis_kelamin; ?></td>
       <td><?= $p->jabatan; ?></td>

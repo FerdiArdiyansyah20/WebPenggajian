@@ -40,7 +40,7 @@
   <tr>
     <td>NIP</td>
     <td>:</td>
-    <td><?= $ps->nip; ?></td>
+    <td><?= $ps->nik; ?></td>
   </tr>
   <tr>
     <td>Jabatan</td>

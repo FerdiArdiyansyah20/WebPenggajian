@@ -85,7 +85,7 @@
     foreach($absensi as $a): ?>
     <tr>
       <td><?= $no++; ?></td>
-      <td><?= $a->nip; ?></td>
+      <td><?= $a->nik; ?></td>
       <td><?= $a->nama_pegawai; ?></td>
       <td><?= $a->jenis_kelamin; ?></td>
       <td><?= $a->jabatan; ?></td>
